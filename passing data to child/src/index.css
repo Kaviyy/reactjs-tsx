@@ -1,0 +1,55 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure full-page layout */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Main content area */
+main {
+  flex: 1;
+  margin-top: 70px; /* Push content down to avoid overlapping with header */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+section{
+  border:1px solid rgb(188,171,171);
+  width:max-content;
+  height: max-content;
+  margin: auto;
+  text-align: center;
+}
