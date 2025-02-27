@@ -60,3 +60,4 @@ const NewProducts = () => {
 }
 
 export default NewProducts;
+<a></a>
