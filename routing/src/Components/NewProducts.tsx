@@ -60,6 +60,3 @@ const NewProducts = () => {
 }
 
 export default NewProducts;
-p[
-  vgygy
-]
